@@ -73,15 +73,15 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
+Hi {}, my name is Haguromo Otsusuki! 
 I am an Anime themed group management bot.
 Build by weebs for weebs, I specialize in managing anime and similar themed groups.
 You can find my list of available commands with /help.
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
-I'm kaizoku king and i am here to help admins manage their groups with pistol Punch! Have a look at the following for an idea of some of \
+Hey there! My name is *Haguromo Otsusuki*.
+I'm sage of six paths and i am here to help admins manage their groups with Rikudo Chibaku tenseai! Have a look at the following for an idea of some of \
 the things I can help you with.
 
 *Main* commands available:
@@ -100,12 +100,12 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.?\n",
 )
 
-SAITAMA_IMG = "https://telegra.ph/file/16d8d94191e8c3056efa6.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/358923611b5ea60828f56.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](ko-fi.com/sawada) or by contacting @Sawada \
+ You can support the project by contacting @Sawada \
  Supporting isnt always financial! \
- Those who cannot provide monetary support are welcome to help us develop the bot at @luffy_support."""
+ Those who cannot provide monetary support are welcome to help us develop the bot DM at @Avika_5555."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -222,7 +222,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="☑️ Add luffy to your group",
+                                text="☑️ Add Haguromo to your group",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username
                                 ),
@@ -231,23 +231,13 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="🚑 Support Group",
-                                url=f"https://t.me/luffy_support",
-                            ),
-                            InlineKeyboardButton(
-                                text="🔔 Updates Channel",
-                                url="https://t.me/luffy_updates",
-                            ),
-                        ],
-                        [
-                            InlineKeyboardButton(
-                                text="🧾 Getting started guide",
-                                url="https://t.me/luffy_updates/29",
+                                url=f"https://t.me/Rikudosupport",
                             )
                         ],
                         [
                             InlineKeyboardButton(
                                 text="🗄 Source code",
-                                url="https://github.com/utkarsh720p/SaitamaRobot",
+                                url="https://github.com/satyanandatripathi/SaitamaRobot",
                             )
                         ],
                     ]
